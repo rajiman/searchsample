@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SearchResults>
+	<SearchResult N="0">
+		<A_Score>4726190</A_Score>
+		<Url>insurance.com</Url>
+		<Category>-</Category>
+		<Retailness>true</Retailness>
+		<Lang>en</Lang>
+		<SiteRegion>MA</SiteRegion>
+		<SiteCountry>USA</SiteCountry>
+		<BrowseFrom>-</BrowseFrom>
+		<UserCountry>US</UserCountry>
+		<PageviewsCountry>US</PageviewsCountry>
+		<RateCard>-</RateCard>
+		<dUsers1M>-</dUsers1M>
+		<dPageviews1M>-15.1</dPageviews1M>
+		<Visits>210000</Visits>
+		<Pageviews>470000</Pageviews>
+		<Users>126000</Users>
+		<Rank1M>58947</Rank1M>
+		<TimeOnSite>193</TimeOnSite>
+		<Loyalty>1</Loyalty>
+		<TimePerPage>60</TimePerPage>
+		<Adult>no</Adult>
+		<Rel>59063</Rel>
+		<path>www.insurance.com/</path>
+		<T1ATotal>1232</T1ATotal>
+		<Adness>-</Adness>
+		<AdNetworks>-</AdNetworks>
+		<Blog>-</Blog>
+	</SearchResult>
+	<SearchResult N="1">
+		<A_Score>3108343</A_Score>
+		<Url>statefarm.com</Url>
+		<Category>Business Business-Financial_Services</Category>
+		<Retailness>false</Retailness>
+		<Lang>en</Lang>
+		<SiteRegion>IL</SiteRegion>
+		<SiteCountry>USA</SiteCountry>
+		<BrowseFrom>-</BrowseFrom>
+		<UserCountry>US</UserCountry>
+		<PageviewsCountry>US</PageviewsCountry>
+		<RateCard>-</RateCard>
+		<dUsers1M>-</dUsers1M>
+		<dPageviews1M>10.0</dPageviews1M>
+		<Visits>1240000</Visits>
+		<Pageviews>5350000</Pageviews>
+		<Users>850000</Users>
+		<Rank1M>6150</Rank1M>
+		<TimeOnSite>224</TimeOnSite>
+		<Loyalty>1</Loyalty>
+		<TimePerPage>37</TimePerPage>
+		<Adult>no</Adult>
+		<Rel>7774</Rel>
+		<path>www.statefarm.com/</path>
+		<T1ATotal>1976</T1ATotal>
+		<Adness>true</Adness>
+		<AdNetworks>doubleclick</AdNetworks>
+		<Blog>-</Blog>
+	</SearchResult>
+	<SearchResult N="2">
+		<A_Score>1921915</A_Score>
+		<Url>directline.com</Url>
+		<Category>-</Category>
+		<Retailness>false</Retailness>
+		<Lang>en</Lang>
+		<SiteRegion>-</SiteRegion>
+		<SiteCountry>UK</SiteCountry>
+		<BrowseFrom>-</BrowseFrom>
+		<UserCountry>GB</UserCountry>
+		<PageviewsCountry>GB</PageviewsCountry>
+		<RateCard>-</RateCard>
+		<dUsers1M>-24.8</dUsers1M>
+		<dPageviews1M>-13.2</dPageviews1M>
+		<Visits>280000</Visits>
+		<Pageviews>1010000</Pageviews>
+		<Users>209000</Users>
+		<Rank1M>32380</Rank1M>
+		<TimeOnSite>288</TimeOnSite>
+		<Loyalty>1</Loyalty>
+		<TimePerPage>50</TimePerPage>
+		<Adult>no</Adult>
+		<Rel>32901</Rel>
+		<path>www.directline.com/</path>
+		<T1ATotal>488</T1ATotal>
+		<Adness>true</Adness>
+		<AdNetworks>aquantive</AdNetworks>
+		<Blog>-</Blog>
+	</SearchResult>
+	<SearchResult N="3">
+		<A_Score>1115834</A_Score>
+		<Url>allstate.com</Url>
+		<Category>Business Business-Financial_Services</Category>
+		<Retailness>false</Retailness>
+		<Lang>en</Lang>
+		<SiteRegion>IL</SiteRegion>
+		<SiteCountry>USA</SiteCountry>
+		<BrowseFrom>-</BrowseFrom>
+		<UserCountry>US</UserCountry>
+		<PageviewsCountry>US</PageviewsCountry>
+		<RateCard>-</RateCard>
+		<dUsers1M>-</dUsers1M>
+		<dPageviews1M>16.8</dPageviews1M>
+		<Visits>1100000</Visits>
+		<Pageviews>3310000</Pageviews>
+		<Users>800000</Users>
+		<Rank1M>7532</Rank1M>
+		<TimeOnSite>212</TimeOnSite>
+		<Loyalty>1</Loyalty>
+		<TimePerPage>48</TimePerPage>
+		<Adult>no</Adult>
+		<Rel>10139</Rel>
+		<path>www.allstate.com/</path>
+		<T1ATotal>1611</T1ATotal>
+		<Adness>true</Adness>
+		<AdNetworks>doubleclick</AdNetworks>
+		<Blog>-</Blog>
+	</SearchResult>
+	<SearchResult N="4">
+		<A_Score>624981</A_Score>
+		<Url>aig.com</Url>
+		<Category>Business Business-Financial_Services</Category>
+		<Retailness>false</Retailness>
+		<Lang>en</Lang>
+		<SiteRegion>NJ</SiteRegion>
+		<SiteCountry>USA</SiteCountry>
+		<BrowseFrom>-</BrowseFrom>
+		<UserCountry>IN US</UserCountry>
+		<PageviewsCountry>US</PageviewsCountry>
+		<RateCard>-</RateCard>
+		<dUsers1M>-</dUsers1M>
+		<dPageviews1M>-</dPageviews1M>
+		<Visits>141000</Visits>
+		<Pageviews>365000</Pageviews>
+		<Users>91000</Users>
+		<Rank1M>79751</Rank1M>
+		<TimeOnSite>182</TimeOnSite>
+		<Loyalty>1</Loyalty>
+		<TimePerPage>33</TimePerPage>
+		<Adult>no</Adult>
+		<Rel>87113</Rel>
+		<path>www.aig.com/</path>
+		<T1ATotal>953</T1ATotal>
+		<Adness>-</Adness>
+		<AdNetworks>-</AdNetworks>
+		<Blog>-</Blog>
+	</SearchResult>
+	<SearchResult N="5">
+		<A_Score>431677</A_Score>
+		<Url>confused.com</Url>
+		<Category>-</Category>
+		<Retailness>false</Retailness>
+		<Lang>en</Lang>
+		<SiteRegion>-</SiteRegion>
+		<SiteCountry>UK</SiteCountry>
+		<BrowseFrom>-</BrowseFrom>
+		<UserCountry>GB</UserCountry>
+		<PageviewsCountry>GB</PageviewsCountry>
+		<RateCard>-</RateCard>
+		<dUsers1M>-</dUsers1M>
+		<dPageviews1M>-8.1</dPageviews1M>
+		<Visits>520000</Visits>
+		<Pageviews>1220000</Pageviews>
+		<Users>375000</Users>
+		<Rank1M>19278</Rank1M>
+		<TimeOnSite>236</TimeOnSite>
+		<Loyalty>1</Loyalty>
+		<TimePerPage>58</TimePerPage>
+		<Adult>no</Adult>
+		<Rel>21929</Rel>
+		<path>www.confused.com/</path>
+		<T1ATotal>706</T1ATotal>
+		<Adness>true</Adness>
+		<AdNetworks>adsense</AdNetworks>
+		<Blog>-</Blog>
+	</SearchResult>
+	<SearchResult N="6">
+		<A_Score>389662</A_Score>
+		<Url>insure.com</Url>
+		<Category>Home Home-Personal_Finance</Category>
+		<Retailness>false</Retailness>
+		<Lang>en</Lang>
+		<SiteRegion>CT</SiteRegion>
+		<SiteCountry>USA</SiteCountry>
+		<BrowseFrom>-</BrowseFrom>
+		<UserCountry>US</UserCountry>
+		<PageviewsCountry>US</PageviewsCountry>
+		<RateCard>-</RateCard>
+		<dUsers1M>-</dUsers1M>
+		<dPageviews1M>17.7</dPageviews1M>
+		<Visits>230000</Visits>
+		<Pageviews>560000</Pageviews>
+		<Users>122000</Users>
+		<Rank1M>57235</Rank1M>
+		<TimeOnSite>229</TimeOnSite>
+		<Loyalty>1</Loyalty>
+		<TimePerPage>56</TimePerPage>
+		<Adult>no</Adult>
+		<Rel>55979</Rel>
+		<path>www.insure.com/</path>
+		<T1ATotal>1282</T1ATotal>
+		<Adness>-</Adness>
+		<AdNetworks>-</AdNetworks>
+		<Blog>-</Blog>
+	</SearchResult>
+	<SearchResult N="7">
+		<A_Score>316529</A_Score>
+		<Url>aami.com.au</Url>
+		<Category>Business Business-Financial_Services</Category>
+		<Retailness>false</Retailness>
+		<Lang>en</Lang>
+		<SiteRegion>-</SiteRegion>
+		<SiteCountry>AUSTRALIA</SiteCountry>
+		<BrowseFrom>-</BrowseFrom>
+		<UserCountry>AU</UserCountry>
+		<PageviewsCountry>AU</PageviewsCountry>
+		<RateCard>-</RateCard>
+		<dUsers1M>-</dUsers1M>
+		<dPageviews1M>-</dPageviews1M>
+		<Visits>124000</Visits>
+		<Pageviews>520000</Pageviews>
+		<Users>94000</Users>
+		<Rank1M>71486</Rank1M>
+		<TimeOnSite>295</TimeOnSite>
+		<Loyalty>1</Loyalty>
+		<TimePerPage>41</TimePerPage>
+		<Adult>no</Adult>
+		<Rel>80021</Rel>
+		<path>www.aami.com.au/</path>
+		<T1ATotal>203</T1ATotal>
+		<Adness>true</Adness>
+		<AdNetworks>doubleclick</AdNetworks>
+		<Blog>-</Blog>
+	</SearchResult>
+	<SearchResult N="8">
+		<A_Score>313093</A_Score>
+		<Url>nrma.com.au</Url>
+		<Category>-</Category>
+		<Retailness>true</Retailness>
+		<Lang>en</Lang>
+		<SiteRegion>-</SiteRegion>
+		<SiteCountry>AUSTRALIA</SiteCountry>
+		<BrowseFrom>-</BrowseFrom>
+		<UserCountry>AU</UserCountry>
+		<PageviewsCountry>AU</PageviewsCountry>
+		<RateCard>-</RateCard>
+		<dUsers1M>-</dUsers1M>
+		<dPageviews1M>-</dPageviews1M>
+		<Visits>137000</Visits>
+		<Pageviews>405000</Pageviews>
+		<Users>111000</Users>
+		<Rank1M>67509</Rank1M>
+		<TimeOnSite>186</TimeOnSite>
+		<Loyalty>1</Loyalty>
+		<TimePerPage>47</TimePerPage>
+		<Adult>no</Adult>
+		<Rel>78904</Rel>
+		<path>www.nrma.com.au/</path>
+		<T1ATotal>120</T1ATotal>
+		<Adness>true</Adness>
+		<AdNetworks>doubleclick</AdNetworks>
+		<Blog>-</Blog>
+	</SearchResult>
+	<SearchResult N="9">
+		<A_Score>304354</A_Score>
+		<Url>geico.com</Url>
+		<Category>Business Business-Financial_Services</Category>
+		<Retailness>false</Retailness>
+		<Lang>en</Lang>
+		<SiteRegion>DC</SiteRegion>
+		<SiteCountry>USA</SiteCountry>
+		<BrowseFrom>-</BrowseFrom>
+		<UserCountry>US</UserCountry>
+		<PageviewsCountry>US</PageviewsCountry>
+		<RateCard>-</RateCard>
+		<dUsers1M>11.1</dUsers1M>
+		<dPageviews1M>23.4</dPageviews1M>
+		<Visits>2520000</Visits>
+		<Pageviews>11360000</Pageviews>
+		<Users>1740000</Users>
+		<Rank1M>2676</Rank1M>
+		<TimeOnSite>273</TimeOnSite>
+		<Loyalty>1</Loyalty>
+		<TimePerPage>48</TimePerPage>
+		<Adult>no</Adult>
+		<Rel>3702</Rel>
+		<path>www.geico.com/</path>
+		<T1ATotal>1545</T1ATotal>
+		<Adness>true</Adness>
+		<AdNetworks>aquantive</AdNetworks>
+		<Blog>-</Blog>
+	</SearchResult>
+	<Stats>
+		<Total type="estimated">34106</Total>
+		<RawCount>10000</RawCount>
+		<TotalServed>31346081</TotalServed>
+		<ParsedQuery>(query:insurance(34106; 162978) and Adult:no(9907809))</ParsedQuery>
+		<ESQ>1</ESQ>
+		<ContextTerms>insurance</ContextTerms>
+		<FluffedContextTerms>insurance</FluffedContextTerms>
+	</Stats>
+	<Unique>
+		<value>Url,1 [0]</value>
+		<value>Total [0]</value>
+	</Unique>
+<QueryToField>
+	<Usage>
+		<Metric name="Count">1</Metric>
+		<Metric name="CPU">0.18</Metric>
+		<Metric name="MinorPF">6573</Metric>
+		<Metric name="MajorPF">0</Metric>
+		<Metric name="Elapsed">0.000</Metric>
+	</Usage>
+</QueryToField>
+<Info>ModTime	1263240132</Info>
+</SearchResults>
