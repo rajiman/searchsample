@@ -1,0 +1,12 @@
+This project is for the sample code requested by Alexa Internet.
+
+The project specific files are:
+--------------------------------
+controller/indexController.php
+css/style1.css
+js/ajax.js
+views/basic.php
+views/home.php
+
+
+The remaining files make up the mvc framework.
