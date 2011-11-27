@@ -1,0 +1,29 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ index.php?rt=$1 [L,QSA] 
+
+#RewriteRule ^([^/]*)/([^/]*)$ index.php?rt=$1/$2 [L,QSA]
+#RewriteRule ^([^/]*)/.*$ index.php?rt=$1 [L,QSA]
+
+FileETag none
+
+ExpiresActive On
+<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
+ExpiresDefault "access plus 10 years" 
+</FilesMatch>
+
+<FilesMatch "\.(html|htm|php)$">
+Header set Cache-Control "max-age=7200, must-revalidate"
+</FilesMatch>
+
+
+<IfModule mod_deflate.c>
+<FilesMatch "\.(js|css|php)$">
+SetOutputFilter DEFLATE
+</FilesMatch>
+</IfModule>
+
+
