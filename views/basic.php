@@ -8,9 +8,6 @@
 <title><?php echo $pgtitle; ?></title>
 <link href="<?php echo __SITE_ROOT; ?>css/style1.css"  rel="stylesheet" 
 						   type="text/css" /> 
-<!--script type="text/javascript" 
-	src="<?php //echo __SITE_ROOT; ?>js/ajax.js"></script-->
-<!-- END Javascripts -->
 </head>
 <body>
 <div class="clearfloats" id="pgcontent"><!-- Content -->
@@ -19,12 +16,10 @@
 <div id="footer">
 <p>Alexa Code Sample Search</p>
 </div> <!-- footer -->
-<img id="sample" src="<?php echo __SITE_ROOT;?>images/sample_search_result.jpg" alt="sample view" />
 <!-- JavaScripts -->
 <script type="text/javascript"
       src="http://code.jquery.com/jquery-1.7.min.js"></script>
 <script type="text/javascript">
-//alert('test0');
     function loadScript(url, callback){
 
         var script = document.createElement("script")
@@ -53,6 +48,6 @@
         App.events();
     });
 </script>
-
+<!-- END Javascripts -->
 </body>
 </html>
