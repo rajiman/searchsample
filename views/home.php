@@ -1,8 +1,10 @@
 <div id="searchText">
 <form name="searchform" id="searchform" action="<?php echo __SITE_ROOT.'results' ?>" method="post">
+<fieldset>
 <input type="text"  id="searchtext" name="searchtext" size="40" value="<?php echo $srchtext; ?>" />
 <!--img src="http://alexa.com/favicon.ico"  id="icon" /-->
 <input type="submit"  value="Search" />
+</fieldset>
 </form>
 </div><!-- saerchText -->
 <div id="searchContent">
@@ -20,7 +22,9 @@
 	echo '&nbsp;&nbsp;Adult:&nbsp;'.$entry['adult'].'</p>';
 	echo '<p>Category:&nbsp;'.$entry['category'].'</p></div>';
 }?>
-</div><!-- saerchResults -->
+<div id="pagenav">
 <?php echo $pagenav; ?>
+</div>
+</div><!-- saerchResults -->
 <?php } ?>
 </div><!-- searchContent -->
