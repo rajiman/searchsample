@@ -10,7 +10,7 @@ public function index() {
 */
 
     if(isset($_POST['searchtext'])) {
-	$srchtext =  $_POST['searchtext'];
+	$srchtext = filter_var($_POST['searchtext'], FILTER_SANITIZE_STRING);
     } elseif(isset($_GET['q'])) {
 	$srchtext =  urldecode($_GET['q']);
     } else {
@@ -46,12 +46,15 @@ public function index() {
 	$category = str_replace('-', ' > ', $category);
 	$category = str_replace('_', ' ', $category);
 
+	$domain = substr($url, 0, strpos($url, '.')); //parse for domain(no extensions)  
 
 	$results[] =  array(	'url'      => $url, 
 				'rank1m'   => $rank1m,
 				'retail'   => $retail,
 				'adult'    => $adult,
+				'domain'   => $domain,
 				'category' => $category);
+
     }
 
 /*//////////////////////////////////////////////////////////////////////////
@@ -64,10 +67,17 @@ public function index() {
     /* Check for Url match and move to top of displayed result. */
     $srchtext_arr = explode(" ", $srchtext);
     $key = null;
+    $dontmatch = array ('Yes', 'No');
     foreach($srchtext_arr as $text) {
-	if($text) { //exclude empty string
+	if($text && !in_array($text, $dontmatch)) { //exclude empty string && $dontmatch
 
+
+	    /* also check for domain w/o extensions */
+	    if( !is_int($key) && is_int(strpos($text, '.')) ){
+    	    	$key = $this->recursiveArraySearch($results, substr($text, 0, strpos($text, '.')));
+	    } else  {
     	    $key = $this->recursiveArraySearch($results, $text);
+	    }
 
     	    if(is_int($key)){ //move to 1st position
     	    	$value = $results[$key];
