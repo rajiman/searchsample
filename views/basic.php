@@ -8,7 +8,11 @@
 <title><?php echo $pgtitle; ?></title>
 <link href="<?php echo __SITE_ROOT; ?>css/style1.css"  rel="stylesheet" 
 						   type="text/css" /> 
+<!--script type="text/javascript" 
+	src="<?php //echo __SITE_ROOT; ?>js/ajax.js"></script-->
+<!-- END Javascripts -->
 </head>
+<?php flush(); ?>
 <body>
 <div class="clearfloats" id="pgcontent"><!-- Content -->
 <?php include __SITE_PATH."/views/".$content.".php"; ?>
@@ -16,7 +20,6 @@
 <div id="footer">
 <p>Alexa Code Sample Search</p>
 </div> <!-- footer -->
-<!-- JavaScripts -->
 <script type="text/javascript"
       src="http://code.jquery.com/jquery-1.7.min.js"></script>
 <script type="text/javascript">
@@ -46,8 +49,9 @@
     loadScript("<?php echo __SITE_ROOT; ?>js/ajax.js", function(){
         App.init();
         App.events();
+	App.preload("<?php echo __SITE_ROOT; ?>images/link-icon.png");
     });
 </script>
-<!-- END Javascripts -->
+<!-- JavaScripts -->
 </body>
 </html>

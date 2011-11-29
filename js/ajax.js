@@ -42,7 +42,22 @@ var App = {}
     	);
     }
   });
-	 
-
  }
+	 
+ App.preload = function (images) {
+    if (document.images) {
+        var i = 0;
+        var imageArray = new Array();
+        imageArray = images.split(',');
+        var imageObj = new Image();
+	var arrlen = imageArray.length;
+        for(i=0; i<=arrlen-1; i++) {
+	    // Write to page (uncomment following line to check images)
+            //document.write('<img src="' + imageArray[i] + '" />');
+            imageObj.src=imageArray[i];
+        }
+    }
+ }
+    
+
 
