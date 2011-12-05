@@ -28,3 +28,4 @@
 </div><!-- saerchResults -->
 <?php } ?>
 </div><!-- searchContent -->
+<div id="log"></div>
