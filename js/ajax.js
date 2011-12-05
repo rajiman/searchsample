@@ -19,7 +19,7 @@ var App = {}
 	title   = document.title;
 
     /* initialize History stack */
-    History.pushState({results:'results'}, title, ""); // state object for debug
+    History.pushState({}, title, "");
 
     /* setup History actions */
     $(window).bind('statechange',function(){
@@ -73,7 +73,7 @@ var App = {}
 
     	} else { //push state change
 
-	    History.pushState({test:term}, title, "results?q="+encodeURIComponent(term.replace(' ', '+'))+'&p=0');
+	    History.pushState({}, title, "results?q="+encodeURIComponent(term.replace(' ', '+'))+'&p=0');
     	}
     });
 
@@ -92,7 +92,7 @@ var App = {}
     	    page   = params['p'];
 	}
 
-	History.pushState(null, title, "results?q="+encodeURIComponent(term)+'&p='+page);
+	History.pushState({}, title, "results?q="+encodeURIComponent(term)+'&p='+page);
     });
  }
 	 
