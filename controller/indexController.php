@@ -97,7 +97,8 @@ public function index() {
 
 
     /* $this->registry->action is 2nd URL parameter and will default to 'index if not specified.*/
-    $offset      = $this->registry->action == 'index' ? 0 : $this->registry->action;
+    //$offset      = $this->registry->action == 'index' ? 0 : $this->registry->action;
+    $offset      = isset($_GET['p']) ? (int)$_GET['p'] : 0;
     $pagename    = __SITE_ROOT.'results';
     $totaloffset = $offset * PERPAGE;
     $totalcount  = 10; // As provided by Alexa
