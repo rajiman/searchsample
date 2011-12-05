@@ -16,10 +16,9 @@ var App = {}
 
     var $form   = $('#searchform'),
         srchTxt = $form.find( 'input[name="searchtext"]' ),
-	title   = document.title;
+	title   = document.title,
+        action  = $form.attr('action');
 
-    /* initialize History stack */
-    History.pushState({}, title, "");
 
     /* setup History actions */
     $(window).bind('statechange',function(){
@@ -28,7 +27,7 @@ var App = {}
 	    stUrl = State.url;
 
 
-    	if(stUrl.indexOf('results') != -1) {
+    	if(stUrl.indexOf('results') != -1) { 
 
     	    var	term =  '',
     	    	page =  0;
@@ -43,7 +42,7 @@ var App = {}
     
     	    baseUrl = stUrl.split('results')[0]+'results?q='+encodeURIComponent(term)+'&p='+page;
 
-    	    $.post( baseUrl, { searchtext: term },
+    	    $.get( baseUrl,
 	     	function(data) {
 		    var content = $(data).find('#searchResults'); 
 		    var termCln = $(data).find('input[name="searchtext"]').val(); //server sanitize
@@ -73,7 +72,15 @@ var App = {}
 
     	} else { //push state change
 
-	    History.pushState({}, title, "results?q="+encodeURIComponent(term.replace(' ', '+'))+'&p=0');
+    	    $.post( action, { searchtext: term },
+	     	function(data) {
+		    var content = $(data).find('#searchResults'); 
+		    var termCln = $(data).find('input[name="searchtext"]').val(); //server sanitize
+		    $('#searchContent').html(content);
+    		    srchTxt.val(termCln)
+	    	    History.pushState({}, title, "results?q="+encodeURIComponent(term.replace(' ', '+'))+'&p=0');
+		    App.init();
+	    });
     	}
     });
 
@@ -82,9 +89,10 @@ var App = {}
     	event.preventDefault(); 
 
     	var  term =  '',
-    	     page =  0;
+    	     page =  0,
+	     href = this.href;
 
-	if(this.href.indexOf('?q=') != -1) {
+	if(href.indexOf('?q=') != -1) {
     	    //term = this.href.split('?')[1].split('=')[1].split('&')[0];
     	    //page = this.href.split('?')[1].split('&')[1].split('=')[1];
 	    params = App.urlParse(this.href.split('?')[1]);
@@ -92,7 +100,13 @@ var App = {}
     	    page   = params['p'];
 	}
 
-	History.pushState({}, title, "results?q="+encodeURIComponent(term)+'&p='+page);
+	$.get( href,
+	    function(data) {
+		var content = $( data ).find( '#searchContent' );
+		$('#searchContent').html(content);
+		History.pushState({}, title, "results?q="+encodeURIComponent(term)+'&p='+page);
+	
+	});
     });
  }
 	 
