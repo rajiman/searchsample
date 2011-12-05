@@ -183,9 +183,9 @@ Returns HTML code for the navigator
 ////////////////////////////////////////////////////////////////////
   private function createLink($offset, $strdisplay, $id='' ){
     //$strtemp = "<span class=\"active\"><a class=\"rounded2 \" id=\"$id\" href=\"$this->pagename/$offset\">";
-    $strtemp = "<span class=\"active\"><a  id=\"$id\" href=\"$this->pagename/$offset/?";
+    $strtemp = "<span class=\"active\"><a  id=\"$id\" href=\"$this->pagename";
     //$strtemp .= $offset;
-    $strtemp .= "$this->params\">$strdisplay</a></span>\n";
+    $strtemp .= "?$this->params&p=$offset\">$strdisplay</a></span>\n";
     //$strtemp .= "$strdisplay</a></span>\n";
     return $strtemp;
   }
