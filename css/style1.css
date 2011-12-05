@@ -35,8 +35,9 @@ div#pgcontent {
 }
 
 div#searchText {
-	border-bottom:1px solid #000;
+	border-bottom:1px solid #888;
 	margin-bottom:2em;
+	padding-top:1em;
 }
 
 div#searchText input {
@@ -48,9 +49,7 @@ div#searchText input[type="text"] {
 	width:40%;
 	font-size:1.5em;
 	height:1.6em;
-  	-moz-border-radius:0.5ex;
-  	-webkit-border-radius:0.5ex;
-	border-radius:0.5ex;
+	border-radius:0.3em;
 }
 
 div#searchText input[type="submit"] {
@@ -60,7 +59,8 @@ div#searchText input[type="submit"] {
 }
 
 div#searchResults {
-	min-height:20em;
+	min-height:25em;
+	position:relative;
 }
 
 div.resultitem {
@@ -82,6 +82,13 @@ div.resultitem p.resultlink {
 	font-size:1.3em;
 }
 
+div#pagenav {
+	position:absolute;
+	bottom:0.5em;
+	left:7em;
+	width:100%;
+}
+
 div.navigator {
 	margin:1.5em auto 0.5em auto;
 	width:38%;
@@ -97,7 +104,7 @@ div.totalpagesdisplay {
 }
 
 div#footer {
-	margin-top:2em;
+	margin-top:0.5em;
 	text-align:center;
        	height:1.5em;
 	background-color:#036;
